@@ -1,0 +1,222 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    
+</head>
+<style>
+    body {
+        color: #0c0c0c;
+        margin: 0px;
+        padding: 0px;
+        background:  pink;
+        /*height:1300px;*/
+    }
+
+    .left {
+        /* border:2px solid rgb(21, 20, 20);*/
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 5px;
+        margin: 0px auto;
+        padding: 0px;
+
+        /*background-color:Grey;*/
+
+
+    }
+
+    .left div {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        font-size: 25px;
+        line-height: 0px;
+    }
+
+   
+
+    
+
+    .mid {
+        /*  border : 3px solid rgb(49, 52, 49);*/
+        display: block;
+        width: 60%;
+        margin: 20px auto;
+        /*background-color:grey*/
+    }
+
+    .right {
+        /*border:3px solid rgb(197, 197, 23);*/
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+    }
+
+    .navbar {
+        display: inline-block;
+        font-family: 'Baloo Bhai', cursive;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: #0c0c0c;
+        padding: 40px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: red;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 15px;
+        background-color: grey;
+        color: black;
+        font-size: 18px;
+        border-radius: 10px;
+        font-size: 15px;
+        padding: 4px 14px;
+
+    }
+
+    .btn:hover {
+        color: rgb(222, 14, 14);
+        background-color: pink;
+        border: 2px solid red;
+        text-decoration: underline;
+        text-decoration-color: black;
+
+
+    }
+
+    .container {
+        font-family: 'Baloo Bhai', cursive;
+        /* border:2px solid green;*/
+        margin: 80px 80px;
+        padding: 35px;
+        width: 40%;
+        border-radius: 15px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        width: 60%;
+        padding: 6px;
+        display: block;
+        margin: 11px auto;
+        font-size: 18px;
+        border-radius: 15px;
+    }
+
+    .bt {
+        margin: 0px 15px;
+        background-color: rgb(197, 15, 15);
+        color: black;
+        font-size: 18px;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 4px 14px;
+        font-family: 'Baloo Bhai', cursive;
+
+
+    }
+
+    .bt:hover {
+        color: rgb(49, 17, 232);
+        background-color: pink;
+        border: 2px solid rgb(21, 0, 255);
+        text-decoration: underline;
+        text-decoration-color: black;
+    }
+
+    .container h1 {
+        text-align: Center;
+    }
+
+
+    .container button {
+        display: block;
+        width: 30%;
+        margin: 30px auto;
+
+    
+        
+    }
+    .box-container{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));
+        gap:3rem;
+
+    }
+    .box-container h2{
+        text-align:Center;
+    }
+    
+</style>
+
+<body>
+    
+    <header class="header">
+       
+        <div class="mid">
+            <!-- mid box for navbar -->
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">services </a></li>
+                <li><a href="#">About us </a></li>
+               
+            </ul>
+        </div>
+        <div class="right">
+            <div class="search">
+                <form action="#">
+                    <input type="text"
+                        placeholder=" Search Courses"
+                        name="search">
+                    <button>
+                        <i class="fa fa-search"
+                            style="font-size: 18px;">
+                        </i>
+                    </button>
+                </form>
+            </div>
+           
+        </div>
+    </header>
+    <div class="container">
+        <h1>Intern Crowd Internships</h1>
+        <div class ="box-container">
+        <div class="box">
+            <h2>Web Development </h2>
+            <p>Wbsite needs to work access all the devices </p>
+        </div>
+        <div class="box">
+            <h2>Java Development </h2>
+            <P>  It includes owning a particular application or working on several at one time.</P>
+        </div>
+        <div class ="box">
+            <h2>Digital Marketing </h2>
+            <p>It is the marketing and advertising of a business, product, or service using social media.</p>
+        </div>
+        <div class="box">
+            <h2>C/C++ Development</h2>
+            <p>It is a general-purpose programming and coding language.</p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
